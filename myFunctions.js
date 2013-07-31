@@ -66,20 +66,20 @@ console.log("Goloring, (Go-Low) Lat: " + LatLngToDecimal(50, 20, 22.79, "N")); /
 console.log("Goloring, (Go-Low) Long: " + LatLngToDecimal(7, 26, 21.69, "E")); // 7.439358333333334
 */
 /*
-console.log("Newark circle, Lat: " + LatLngToDecimal(40, 3, 7.74, "N")); // 40.05215
-console.log("Newark circle, Long: " + LatLngToDecimal(82, 26, 50.94, "W")); // -82.44748333333334
+console.log("Newark circle, Lat: " + LatLngToDecimal(40, 3, 7.53, "N")); // 40.05209166666666
+console.log("Newark circle, Long: " + LatLngToDecimal(82, 26, 55, "W")); // -82.44861111111112
 */
 /*
 console.log("Newark octagon, Lat: " + LatLngToDecimal(40, 3, 17.70, "N")); // 40.054916666666664
 console.log("Newark octagon, Long: " + LatLngToDecimal(82, 26, 39.48, "W")); // -82.4443
 */
 /*
-console.log("Newark Fort, Circle Lat: " + LatLngToDecimal(40, 2, 31.8, "N")); // 40.04216666666667
-console.log("Newark Fort, Circle Long: " + LatLngToDecimal(82, 25, 48.4, "W")); // -82.43011111111112
+console.log("Newark Fort, Circle Lat: " + LatLngToDecimal(40, 2, 27.67, "N")); // 40.041019444444444
+console.log("Newark Fort, Circle Long: " + LatLngToDecimal(82, 25, 52.09, "W")); // -82.43113611111112
 */
 /*
-console.log("StoneHenge Lat: " + LatLngToDecimal(51, 10, 45.35, "N")); // 51.17926388888888
-console.log("StoneHenge Long: " + LatLngToDecimal(1, 49, 34.38, "W")); // -1.8262166666666666
+console.log("StoneHenge Lat: " + LatLngToDecimal(51, 10, 43.89, "N")); // 51.17885833333333
+console.log("StoneHenge Long: " + LatLngToDecimal(1, 49, 34.33, "W")); // -1.8262027777777778
 */
 /*
 console.log("Latitude should be 122.7625 : " + LatLngToDecimal(122, 45, 45, "N")); // should return 122.7625
