@@ -1,7 +1,23 @@
-function jump(selection) {
+function jumpProject(selection) {
 	var url = selection.options[selection.selectedIndex].value;
     if (url != 'select') {
 	    window.location.href = url;
+    }
+}
+
+function jumpSite(selection) {
+	var site = selection.options[selection.selectedIndex].value;
+	map.setZoom(16);
+    if (site == "Stonehenge") {
+	    map.setCenter(stoneHenge);
+    } else if (site == "NewarkFort") {
+	    map.setCenter(newarkFort);
+    } else if (site == "NewarkCircle") {
+	    map.setCenter(newarkCircle);
+    } else if (site == "Goloring") {
+	    map.setCenter(goloring);
+    } else if (site == "Cucuilco") {
+	    map.setCenter(cucicuilco);
     }
 }
 
