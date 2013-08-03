@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Drop down control</title>
+</head>
+<body>
+	<form>
+		 <fieldset>
+          <legend>Selecting elements</legend>
+          <p>
+             <label>Select list</label>
+             <select onchange="jump(this)" id = "myList">
+               <option value="1">one</option>
+               <option value = "http://mountain.local/~superuser/JavaScript/GoogleMaps/">two</option>
+               <option value = "3">three</option>
+               <option value = "4">four</option>
+             </select>
+          </p>
+       </fieldset>
+	</form>
+	<hr />
+</body>
+<script src="jump.js" type="text/javascript"></script>
+<script>
+	
+	var form = document.createElement('form');
+	var select_list = document.createElement('select');
+	select_list.onchange = function() {
+		jump(this);
+	}
+
+	var option0 = document.createElement('option');
+	option0.value = "select";
+	option0.innerHTML = "Select a chapter";
+
+	var option1 = document.createElement('option');
+	option1.value = "http://mountain.local/~superuser/JavaScript/GoogleMaps/01basics";
+	option1.innerHTML = "chapter 1";
+	
+	var option3 = document.createElement('option');
+	option3.value = "http://mountain.local/~superuser/JavaScript/GoogleMaps/03controls";
+	option3.innerHTML = "chapter 3";
+	
+	var option5 = document.createElement('option');
+	option5.value = "http://mountain.local/~superuser/JavaScript/GoogleMaps/05Overlays";
+	option5.innerHTML = "chapter 5";
+	
+	select_list.appendChild(option0);
+	select_list.appendChild(option1);
+	select_list.appendChild(option3);
+	select_list.appendChild(option5);
+	
+	form.appendChild(select_list);
+	
+	document.body.appendChild(form);
+	
+</script>
+</html>
