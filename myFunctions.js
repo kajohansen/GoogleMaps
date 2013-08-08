@@ -18,6 +18,10 @@ function jumpSite(selection) {
 	    map.setCenter(goloring);
     } else if (site == "Cucuilco") {
 	    map.setCenter(cucicuilco);
+    } else if (site == "MoneyPit") {
+	    map.setCenter(moneyPit);
+    } else if (site == "Avebury") {
+	    map.setCenter(avebury);
     }
 }
 
@@ -78,7 +82,10 @@ function LatLngToDecimal(deg, min, sec, cardinal)
 		break;
 	}
 }
-
+/*
+console.log("Money Pit, Oak Island Lat: " + LatLngToDecimal(44, 30, 49.93, "N")); // 44.513869444444445
+console.log("Money Pit, Oak Island Long: " + LatLngToDecimal(64, 17, 47.39, "W")); // -64.29649722222221
+*/
 /*
 console.log("Cucicuilco, Mexico Lat: " + LatLngToDecimal(19, 18, 6, "N")); // 19.301666666666666
 console.log("Cucicuilco, Mexico Long: " + LatLngToDecimal(99, 10, 54, "W")); // -99.18166666666667
@@ -114,7 +121,5 @@ console.log("Great Pyramid, Giza Lat: " + LatLngToDecimal(29, 58, 45.53, "N")); 
 console.log("Great Pyramid, Giza Long: " + LatLngToDecimal(31, 8, 3.02, "E")); // 31.134172222222222
 */
 
-/*
 console.log(DecimalToLatLng(51.17926388888888, "Lat"));
 console.log(DecimalToLatLng(-1.8262166666666666, "Lng"));
-*/

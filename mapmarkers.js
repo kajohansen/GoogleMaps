@@ -5,10 +5,13 @@ var newarkCircle = new google.maps.LatLng(40.05209166666666, -82.44861111111112)
 var newarkOctagon = new google.maps.LatLng(40.054916666666664, -82.4443);
 var goloring = new google.maps.LatLng(50.33966388888889, 7.439358333333334);
 var cucicuilco = new google.maps.LatLng(19.301666666666666, -99.18166666666667);
+var avebury = new google.maps.LatLng(51.4285972222222, -1.85374166666667);
 
-var locationArray = [stoneHenge, newarkFort, newarkCircle, newarkOctagon, goloring, cucicuilco];
-var locationNameArray = ['Stonehenge','Fort','Newark Circle','Octagon','Goloring','Cucicuilco'];
-var radiusArray = [55, 170, 160, 50, 90, 55];
+var moneyPit = new google.maps.LatLng(44.5138690, -64.2969);
+
+var locationArray = [stoneHenge, newarkFort, newarkCircle, newarkOctagon, goloring, cucicuilco, avebury, moneyPit];
+var locationNameArray = ['Stonehenge','Fort','Newark Circle','Octagon','Goloring','Cucicuilco', "Avebury", "Money Pit"];
+var radiusArray = [55, 170, 160, 50, 90, 55, 200];
 
 function drawMarkers() {
 	// Map Markers

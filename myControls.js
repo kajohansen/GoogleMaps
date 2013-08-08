@@ -72,12 +72,22 @@ function JumpSiteControl(controlDiv, map) {
 	option5.value = "Cucuilco";
 	option5.innerHTML = "Cucuilco";
 	
+	var option6 = document.createElement('option');
+	option6.value = "Avebury";
+	option6.innerHTML = "Avebury Circle";
+	
+	var option7 = document.createElement('option');
+	option7.value = "MoneyPit";
+	option7.innerHTML = "Money Pit";
+	
 	select_list.appendChild(option0);
 	select_list.appendChild(option1);
 	select_list.appendChild(option2);
 	select_list.appendChild(option3);
 	select_list.appendChild(option4);
 	select_list.appendChild(option5);
+	select_list.appendChild(option6);
+	select_list.appendChild(option7);
 	
 	form.appendChild(select_list);
 	

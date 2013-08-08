@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>NewarkCirclePath.kml</name>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0080ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0080ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>Poly Newark Circle</name>
+		<LookAt>
+			<longitude>-82.44774162816749</longitude>
+			<latitude>40.05254400963027</latitude>
+			<altitude>0</altitude>
+			<heading>-0.0119411606513754</heading>
+			<tilt>29.55832820497185</tilt>
+			<range>697.6465040933277</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>
+				-82.4487398994785,40.05207749845344,20 -82.27220150826399,40.15960918185387,20 -81.18937684717835,40.83068050162846,20 -75.04723952507493,44.46835472963619,20 -41.11819375974175,53.85744108967117,20 2.608072344140477,49.92735992787981,20 48.83901059987949,15.37136977505662,20 72.04305398615664,-16.25393112070564,20 103.6785141875729,-45.26074907779057,20 179.1535784515697,-52.71755906417065,20 -128.0718134703982,-15.24235360498062,20 -114.7200108668369,4.592182337229631,20 -82.4487398994785,40.05207749845344,20 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

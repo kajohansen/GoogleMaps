@@ -4,7 +4,7 @@ function initialize()
 {
 	var mapOptions = {
 	    zoom: 3,
-	    center: new google.maps.LatLng(20, 0), 
+	    center: new google.maps.LatLng(30, -30), 
 	    scaleControl : true,
 	    mapTypeId: google.maps.MapTypeId.SATELLITE
 	};
